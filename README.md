@@ -1,4 +1,4 @@
-# Simple Todo List App 📝
+<h2 align=center> Simple Todo List App 📝 </h2>
 
 this repo is made for GDSC PHCET x HACKTOBERFEST
 
@@ -6,21 +6,19 @@ this repo is made for GDSC PHCET x HACKTOBERFEST
 
 A basic web application for managing your to-do list. This project includes a clean and minimalistic user interface for adding, checking off, and deleting tasks.
 
-## Features ✨
+<h2 align=center> Features ✨ </h2>
 
 - ✅ Add new tasks to your to-do list.
 - ✅ Mark tasks as completed by checking the checkbox.
 - 🗑️ Delete tasks you no longer need.
 
-## Technologies Used
+<h2 align=center> Technologies Used </h2>
 
 - HTML
 - CSS
 - Javascript
 
-Do star the Repository! ⭐
-
-## How to Contribute
+<h2 align=center> How to Contribute </h2>
 
 Contributing to open-source projects is a great way to learn and give back to the community. Here are the steps to contribute to this project:
 
@@ -68,4 +66,4 @@ git pull origin main
 ```
 
 
-Great work! You've made a valuable contribution to our project. Your efforts are much appreciated. Keep up the good work! 🙌
+<h5 align=center> Great work! You've made a valuable contribution to our project. Your efforts are much appreciated. Keep up the good work! 🙌 </h5>
