@@ -12,6 +12,7 @@ A basic web application for managing your to-do list. This project includes a cl
 
 - HTML
 - CSS
+- Javascript
 
 Do star the Repository! ⭐
 
