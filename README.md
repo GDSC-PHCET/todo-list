@@ -1,5 +1,9 @@
 # Simple Todo List App 📝
 
+this repo is made for GDSC PHCET x HACKTOBERFEST
+
+![GDSC PHCET](https://github.com/GDSC-PHCET/todo-list/assets/46837876/977b90ea-1d26-4c51-91db-f71c604f38ad)
+
 A basic web application for managing your to-do list. This project includes a clean and minimalistic user interface for adding, checking off, and deleting tasks.
 
 ## Features ✨
