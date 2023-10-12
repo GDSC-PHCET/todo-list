@@ -1,10 +1,17 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Add a background color for better visibility */
 }
 
 #app {
-  max-width: 400px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 10px;
+  background-color: #fff; /* Add a background color to separate content from the background */
+  border-radius: 10px; /* Add some rounded corners for a better look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for a card-like effect */
 }
 
 h1 {
@@ -18,25 +25,33 @@ h1 {
 
 .todo-item {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   border: 1px solid #ccc;
   margin: 5px 0;
   padding: 10px;
+  background-color: #fff; /* Add a background color to each task item */
+  border-radius: 5px; /* Add some rounded corners to task items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to task items */
 }
 
 .todo-item input[type="checkbox"] {
   margin-right: 10px;
 }
 
+#new-task, #add-button {
+  width: 100%; /* Make input and button full-width on small screens */
+}
+
 #add-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
+  margin: 10px 0;
+  padding: 10px;
   background-color: #007bff;
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 #add-button:hover {
