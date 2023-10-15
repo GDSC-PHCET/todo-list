@@ -1,10 +1,16 @@
 body {
   font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 #app {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 10% auto;
+  /* position: relative;
+  top: 50%;
+  transform: translateY(-50%); */
+
 }
 
 h1 {
