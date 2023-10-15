@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - todo list</title>
-  <meta name="viewport" content="width=device-width, initial-scale=0.63">
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -13,7 +12,17 @@
   <title>Simple To-Do List</title>
 </head>
 
-<body>
+<body class="dark-mode">
+  
+  <div>
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <script>
+    function myFunction() {
+      var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+  </div>
   <div id="app">
     <h1>Simple To-Do List</h1>
     <ul class="todo-list" id="todo-list">
@@ -24,6 +33,7 @@
 </body>
 <!-- partial -->
   <script  src="./script.js"></script>
+  
 
 </body>
 </html>
