@@ -22,6 +22,6 @@ function addTask() {
 
 todoList.addEventListener("click", (event) => {
   if (event.target.className === "delete-button") {
-    event.target.parentElement.remove();
+    event.target.parentElement.remove(confirm("Are you sure you want to delete this item?"));
   }
 });
