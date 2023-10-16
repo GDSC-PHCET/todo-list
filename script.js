@@ -1,6 +1,13 @@
 const todoList = document.getElementById("todo-list");
 const newTaskInput = document.getElementById("new-task");
 const addButton = document.getElementById("add-button");
+const darkModeToggle = document.getElementById("dark-mode-checkbox");
+
+darkModeToggle.addEventListener("change", toggleDarkMode);
+
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
 
 addButton.addEventListener("click", addTask);
 
@@ -12,7 +19,7 @@ function addTask() {
     listItem.innerHTML = `
                     <input type="checkbox">
                     <span>${taskText}</span>
-                    <button class="delete-button">Delete</button>
+                    <button class="delete-button" id="del-btn">Delete</button>
                 `;
     todoList.appendChild(listItem);
 

@@ -54,3 +54,35 @@ h1 {
   padding: 10px;
   margin: 5px 0;
 }
+
+.dark-mode {
+  background-color: #06071f;
+  color: #fff;
+}
+
+.dark-mode .todo-item {
+  background-color: #10113e;
+  border-color: #0d0e32;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #f01515;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#del-btn:hover {
+  background-color: #dd0505;
+}
+
+.dark-mode #add-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.dark-mode #add-button:hover {
+  background-color: #0056b3;
+}
