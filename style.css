@@ -31,6 +31,15 @@ h1 {
   padding: 10px;
 }
 
+.todo-item span{
+  display: inline-block;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.todo-item.completed span{
+  text-decoration: line-through;
+}
+
 .todo-item input[type="checkbox"] {
   margin-right: 10px;
 }

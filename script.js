@@ -17,7 +17,7 @@ function addTask() {
     const listItem = document.createElement("li");
     listItem.className = "todo-item";
     listItem.innerHTML = `
-                    <input type="checkbox">
+                    <input type="checkbox" class = "checkbox">
                     <span>${taskText}</span>
                     <button class="delete-button" id="del-btn">Delete</button>
                 `;
@@ -30,5 +30,8 @@ function addTask() {
 todoList.addEventListener("click", (event) => {
   if (event.target.className === "delete-button") {
     event.target.parentElement.remove();
+  }else if(event.target.className === "checkbox") {
+    const tasks = event.target.parentElement;
+    tasks.classList.toggle("completed")
   }
 });
