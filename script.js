@@ -1,12 +1,19 @@
+const darkModeToggle = document.getElementById("dark-mode-toggle");
+const darkModeLogo = document.getElementById("dark-mode-logo");
 const todoList = document.getElementById("todo-list");
 const newTaskInput = document.getElementById("new-task");
 const addButton = document.getElementById("add-button");
-const darkModeToggle = document.getElementById("dark-mode-checkbox");
 
-darkModeToggle.addEventListener("change", toggleDarkMode);
+
+darkModeToggle.addEventListener("click", toggleDarkMode);
 
 function toggleDarkMode() {
   document.body.classList.toggle("dark-mode");
+  if (document.body.classList.contains("dark-mode")) {
+    darkModeLogo.src = "sun.png"; // Switch to light mode
+  } else {
+    darkModeLogo.src = "moon.png"; // Switch to dark mode
+  }
 }
 
 addButton.addEventListener("click", addTask);
