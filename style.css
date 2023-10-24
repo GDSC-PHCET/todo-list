@@ -2,14 +2,18 @@ body {
   font-family: Arial, sans-serif;
   height: 100%;
   width: 100%;
+  background-image: linear-gradient(to left top, #a0b2cd, #a69ecf, #c182bc, #da628e, #db4d4d);
 }
 
 #app {
   max-width: 400px;
   margin: 10% auto;
-  /* position: relative;
-  top: 50%;
-  transform: translateY(-50%); */
+  padding: 50px;
+  border-radius: 5px;
+  transition: padding 2s;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
 
 }
 
@@ -67,6 +71,11 @@ h1 {
 .dark-mode {
   background-color: #06071f;
   color: #fff;
+}
+
+.dark-mode #app{
+  background-color: rgb(19, 9, 9);
+  box-shadow: rgba(235, 232, 232, 0.81) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 .dark-mode .todo-item {
