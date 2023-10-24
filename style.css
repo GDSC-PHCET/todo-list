@@ -13,6 +13,18 @@ body {
 
 }
 
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.mode-logo {
+  width: 30px;
+  height: 30px;
+}
+
 h1 {
   text-align: center;
 }
