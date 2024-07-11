@@ -16,6 +16,12 @@ function toggleDarkMode() {
   }
 }
 
+newTaskInput.addEventListener("keypress",function(event){
+  if (event.key === "Enter"){
+    event.preventDefault()
+    addButton.click()
+  }
+});
 addButton.addEventListener("click", addTask);
 
 function addTask() {
